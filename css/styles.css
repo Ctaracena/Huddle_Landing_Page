@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+header {
+    width: 100%;
+    background-image: url('../images/bg-hero-desktop.svg');
+    margin-bottom: 150px;
+}
+header .head {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .head img {
+    width: 200px;
+    height: 32px;
+    padding: 25px;
+}
+header .head button {
+    width: 200px;
+    height: 36px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFFFFD;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    margin: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+header .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+header .hero .hero-description {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+header .hero .hero-description h1 {
+    font-size: 39px;
+}
+header .hero .hero-description p {
+    font-size: 16px;
+}
+header .hero .hero-image {
+    width: 780px;
+    margin: 0 15px;
+}
+header .hero .hero-image img {
+    width: 100%;
+}
+header .hero .hero-description button {
+    width: 280px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+main .item1 {
+
+    width: 90%;
+    height: 300px;
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(153,153,153,.5);
+    border-radius: 10px;
+}
+main .item1 div {
+    margin-left: 100px;
+    width: 500px;
+}
+
+main .item1 p {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
+main .item1 figure {
+    width: 300px;
+}
+main .item1 figure img {
+    width: 100%;
+}
+
+main .item2 {
+
+    width: 90%;
+    height: 300px;
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(153,153,153,.5);
+    border-radius: 10px;
+}
+main .item2 div {
+    width: 500px;
+    margin-right: 30px;
+}
+
+main .item2 p {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
+main .item2 figure {
+    width: 300px;
+    margin-left: 100px;
+}
+main .item2 figure img {
+    width: 100%;
+}
+main .build {
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(153,153,153,.5);
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    bottom: -150px;
+}
+main .build h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+main .build button {
+    width: 360px;
+    height: 60px;
+    margin: 0 24%;
+    border-radius: 35px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: 80px;
+}
+footer .container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer .container .huddle {
+    width: 330px;
+    margin-right: 40px;
+}
+footer .container .huddle h2 {
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+footer .container .huddle .location {
+    
+    display: flex;
+    justify-content: center;
+}
+footer .container .huddle .location img {
+    width: 12px;
+    height: 13px;
+    margin: 12px;
+}
+footer .container .huddle .location p {
+    width: 200px;
+    font-size: 10px;
+}
+
+footer .container .huddle .phone {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+}
+footer .container .huddle .phone img {
+    width: 12px;
+    height: 13px;
+    margin: 12px;
+}
+footer .container .huddle .phone p {
+    width: 200px;
+    font-size: 10px;
+}
+
+footer .container .huddle .mail {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+}
+footer .container .huddle .mail img {
+    width: 13px;
+    height: 12px;
+    margin: 12px;
+}
+footer .container .huddle .mail p {
+    width: 200px;
+    font-size: 10px;
+}
+
+footer .container .about {
+    width: 200px;
+    font-size: 10px;
+    display: grid;
+    
+}
+footer .container .about a {
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+}
+footer .container .career {
+    width: 200px;
+    font-size: 10px;
+    display: grid;
+}
+footer .container .career a {
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+footer .container .social {
+    display: flex;
+    margin-top: -30px;
+}
+footer .container .social .fb, .twitter, .insta {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin: 8px;
+}
+footer .container .social .fb {
+    background-image: url('../images/facebook.svg');
+}
+footer .container .social .twitter {
+    background-image: url('../images/twitter.svg');
+}
+footer .container .social .insta {
+    background-image: url('../images/instagram.svg');
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 35px;
+}
+footer .copyright img {
+    width: 12px;
+    height: 12px;
+}
+footer .copyright p {
+    color: white;
+    font-size: 10px;
+    padding: 0 15px 0 5px;
+}
